@@ -9,7 +9,8 @@ import Product from './components/Product'
 import "./styles/app.scss";
 
 function App() {
-  return (
+
+return (
     <BrowserRouter>
       <Header />
       <Routes>
@@ -22,7 +23,8 @@ function App() {
     </BrowserRouter>
   );
 }
-
-const api_address="http://localhost:4000/"
+const api_address="https://ecommerce-project-qwfn.onrender.com/"
+//const api_address=process.env.API_URI
+//const api_address="http://localhost:4000/"
 export {api_address}
 export default App;
