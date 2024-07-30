@@ -3,7 +3,8 @@ import cors from 'cors'
 import {errorMiddleware} from './middlewares/error.js'
 import dotenv from 'dotenv'
 import router from './routes/Getr.js';
-
+import path from 'path';
+import { fileURLToPath } from 'url';
 
   dotenv.config({path: './.env',});
 
@@ -12,6 +13,15 @@ import router from './routes/Getr.js';
 
 
   const app = express();
+
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+// Define the path to your static folder
+const staticFolderPath = path.join(__dirname, 'public');
+
+// Use express.static middleware to serve static files
+app.use(express.static(staticFolderPath));
 
 
  app.use(express.json());
