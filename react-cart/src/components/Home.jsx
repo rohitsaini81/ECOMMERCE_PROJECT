@@ -40,9 +40,9 @@ const Home =  () => {
   return (
     <div className="home">
       {data.map((i,index) => (
-        <Link to={"/product/"+i.id}>
+        <Link to={"/product/"+i.id} key={index}>
         <ProductCard
-          key={index}
+          // key={index}
           imgSrc={i.images[0]}
           name={i.title}
           price={i.price}

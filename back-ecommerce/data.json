@@ -1,0 +1,22 @@
+[
+  {
+    "id": 3,
+    "title": "Classic Heather Gray Hoodie",
+    "price": 69,
+    "description": "Stay cozy and stylish with our Classic Heather Gray Hoodie. Crafted from soft, durable fabric, it features a kangaroo pocket, adjustable drawstring hood, and ribbed cuffs. Perfect for a casual day out or a relaxing evening in, this hoodie is a versatile addition to any wardrobe.",
+    "images": [
+      "https://i.imgur.com/cHddUCu.jpeg",
+      "https://i.imgur.com/CFOjAgK.jpeg",
+      "https://i.imgur.com/wbIMMme.jpeg"
+    ],
+    "creationAt": "2024-07-31T16:59:31.000Z",
+    "updatedAt": "2024-07-31T16:59:31.000Z",
+    "category": {
+      "id": 1,
+      "name": "Crane 12222",
+      "image": "https://www.google.com/image.jpg",
+      "creationAt": "2024-07-31T16:59:31.000Z",
+      "updatedAt": "2024-08-01T05:23:28.000Z"
+    }
+  }
+]

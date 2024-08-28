@@ -34,11 +34,11 @@ const Product = () => {
         return (
             <>
                 <div className="container flex-center">
-                    <div className="container flex-2">
+                    <div className="container flex-2" style={{width:"auto"}}>
                         <ul>
-                            <li style={{ height: "80px", width: "80px" }}><img src={data.images[0]} className="img" alt="photoi" /></li>
-                            <li style={{ height: "80px", width: "80px" }}><img src={data.images[1]} className="img" alt="photoi" /></li>
-                            <li style={{ height: "80px", width: "80px" }}><img src={data.images[0]} className="img" alt="photoi" /></li>
+                            <li className="product_images active_img" style={{ height: "80px", width: "80px" }}><img src={data.images[0]} className="img" alt="photoi" /></li>
+                            <li className="product_images " style={{ height: "80px", width: "80px" }}><img src={data.images[1]} className="img" alt="photoi" /></li>
+                            <li className="product_images " style={{ height: "80px", width: "80px" }}><img src={data.images[0]} className="img" alt="photoi" /></li>
                         </ul>
                     </div>
                     <div className="container flex-2" style={{width: "29rem"}}>
@@ -47,8 +47,12 @@ const Product = () => {
                     <div className="container flex-2" style={{width: "34rem",border:"2px solid black"}}>
                     <p>{data.title}</p>
                     <p>{data.price} Rupees</p>
+                    <div className="details">
+                    <h3>Product Details</h3>
                     <p>{data.description}</p>
-                    <p>{data.title}</p>
+
+                    </div>
+                    
 
                     </div>
                 </div>

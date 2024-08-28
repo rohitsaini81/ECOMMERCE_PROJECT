@@ -1,13 +1,5 @@
 @import "colors";
 
-body {
-  font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0.5px;
-  line-height: 1.5;
-  text-align: left;
-}
 .home {
   display: flex;
   padding: 3rem;
@@ -20,7 +12,7 @@ body {
   width: 200px;
   margin: 2rem;
   border-radius: 5px;
-  padding: 2rem;
+  // padding: 2rem;
   transition: all 0.5s;
   display: flex;
   flex-direction: column;
