@@ -1,0 +1,11 @@
+{
+  "name": "ECOMMERCE_PROJECT",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm start --prefix back-ecommerce\" \"npm start --prefix react-cart\"",
+    "install": "npm run install --prefix back-ecommerce && npm run install --prefix react-cart"
+  },
+  "devDependencies": {
+    "concurrently": "^6.5.1"
+  }
+}
